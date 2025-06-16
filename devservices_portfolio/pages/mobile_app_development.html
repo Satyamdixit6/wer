@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mobile App Development Services - DevServices Portfolio</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <meta name="description" content="Professional mobile app development services for iOS and Android platforms. Custom native and cross-platform solutions that deliver exceptional user experiences." />
+<script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fdevservice5821back.builtwithrocket.new&_v=0.1.2"></script>
+</head>
+<body class="bg-background text-text-primary">
+    <!-- Fixed Header Navigation -->
+    <header class="fixed top-0 left-0 right-0 bg-surface shadow-card z-50">
+        <nav class="max-w-7xl mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <!-- Logo -->
+                <div class="flex items-center space-x-2">
+                    <svg class="w-8 h-8 text-primary" viewBox="0 0 32 32" fill="currentColor">
+                        <path d="M16 2L3 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-13-5z"/>
+                        <path d="M12 14l2 2 6-6" stroke="white" stroke-width="2" fill="none"/>
+                    </svg>
+                    <span class="text-xl font-heading font-bold text-primary">DevServices</span>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="homepage.html" class="text-text-secondary hover:text-primary transition-smooth">Home</a>
+                    <a href="ai_integration_services.html" class="text-text-secondary hover:text-primary transition-smooth">AI Integration</a>
+                    <a href="web_development_services.html" class="text-text-secondary hover:text-primary transition-smooth">Web Development</a>
+                    <a href="mobile_app_development.html" class="text-primary font-semibold border-b-2 border-primary">Mobile Apps</a>
+                    <a href="portfolio_case_studies.html" class="text-text-secondary hover:text-primary transition-smooth">Portfolio</a>
+                    <a href="contact.html" class="bg-accent text-white px-6 py-2 rounded-lg hover:bg-opacity-90 transition-smooth">Get Started</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" class="md:hidden p-2">
+                    <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation Menu -->
+            <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4 border-t border-border">
+                <div class="flex flex-col space-y-4 pt-4">
+                    <a href="homepage.html" class="text-text-secondary">Home</a>
+                    <a href="ai_integration_services.html" class="text-text-secondary">AI Integration</a>
+                    <a href="web_development_services.html" class="text-text-secondary">Web Development</a>
+                    <a href="mobile_app_development.html" class="text-primary font-semibold">Mobile Apps</a>
+                    <a href="portfolio_case_studies.html" class="text-text-secondary">Portfolio</a>
+                    <a href="contact.html" class="bg-accent text-white px-6 py-2 rounded-lg text-center">Get Started</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Breadcrumb Navigation -->
+    <section class="pt-24 pb-4 bg-surface">
+        <div class="max-w-7xl mx-auto px-6">
+            <nav class="flex items-center space-x-2 text-sm">
+                <a href="homepage.html" class="text-text-secondary hover:text-primary transition-smooth">Home</a>
+                <svg class="w-4 h-4 text-text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                </svg>
+                <span class="text-text-secondary">Services</span>
+                <svg class="w-4 h-4 text-text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                </svg>
+                <span class="text-primary font-semibold">Mobile App Development</span>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Service Hero Section -->
+    <section class="pt-16 pb-16 bg-gradient-to-br from-primary to-secondary text-white relative overflow-hidden">
+        <div class="absolute inset-0 bg-black bg-opacity-20"></div>
+        <div class="relative max-w-7xl mx-auto px-6">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="space-y-8">
+                    <h1 class="text-4xl lg:text-6xl font-heading font-bold leading-tight">
+                        Professional 
+                        <span class="text-accent">Mobile App</span> 
+                        Development
+                    </h1>
+                    <p class="text-xl text-gray-200 leading-relaxed">
+                        From concept to launch, we create engaging native and cross-platform mobile applications 
+                        that deliver exceptional user experiences and drive business growth.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="contact.html" class="bg-accent text-white px-8 py-4 rounded-lg font-semibold hover:bg-opacity-90 transition-smooth text-center">
+                            Start Your Project
+                        </a>
+                        <a href="portfolio_case_studies.html" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-primary transition-smooth text-center">
+                            View Our Work
+                        </a>
+                    </div>
+                </div>
+                <div class="hidden lg:block">
+                    <img src="https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Mobile app development process" class="rounded-lg shadow-card w-full h-96 object-cover" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3'; this.onerror=null;" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Categories Section -->
+    <section class="py-20 bg-surface">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-heading font-bold text-primary mb-4">
+                    Comprehensive Mobile Development Solutions
+                </h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    We offer end-to-end mobile app development services covering every aspect of your digital presence, 
+                    from initial design concepts to deployment and ongoing maintenance.
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-12">
+                <!-- iOS Development -->
+                <div class="bg-background p-8 rounded-xl shadow-card hover:shadow-lg transition-content">
+                    <div class="w-16 h-16 bg-accent bg-opacity-10 rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-heading font-bold text-primary mb-4">iOS App Development</h3>
+                    <p class="text-text-secondary mb-6 leading-relaxed">
+                        Create intuitive and visually stunning native iOS applications that engage your audience and leverage the full power of Apple devices.
+                    </p>
+                    <div class="space-y-3 mb-6">
+                        <div class="flex items-center space-x-3">
+                            <svg class="w-5 h-5 text-success" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-text-secondary">Swift & Objective-C Development</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <svg class="w-5 h-5 text-success" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-text-secondary">SwiftUI & UIKit Expertise</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <svg class="w-5 h-5 text-success" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-text-secondary">Apple Watch & iPad Support</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <svg class="w-5 h-5 text-success" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-text-secondary">App Store Optimization</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-surface px-3 py-1 rounded-full text-sm font-semibold text-text-secondary">Swift</span>
+                        <span class="bg-surface px-3 py-1 rounded-full text-sm font-semibold text-text-secondary">SwiftUI</span>
+                        <span class="bg-surface px-3 py-1 rounded-full text-sm font-semibold text-text-secondary">Objective-C</span>
+                    </div>
+                </div>
+
+                <!-- Android Development -->
+                <div class="bg-background p-8 rounded-xl shadow-card hover:shadow-lg transition-content">
+                    <div class="w-16 h-16 bg-secondary bg-opacity-10 rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-heading font-bold text-primary mb-4">Android App Development</h3>
+                    <p class="text-text-secondary mb-6 leading-relaxed">
+                        Build fast, interactive, and responsive Android applications that work seamlessly across the diverse ecosystem of Android devices.
+                    </p>
+                    <div class="space-y-3 mb-6">
+                        <div class="flex items-center space-x-3">
+                            <svg class="w-5 h-5 text-success" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-text-secondary">Kotlin & Java Development</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <svg class="w-5 h-5 text-success" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-text-secondary">Jetpack Compose & XML Layouts</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <svg class="w-5 h-5 text-success" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-text-secondary">Material Design Implementation</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <svg class="w-5 h-5 text-success" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-text-secondary">Google Play Store Optimization</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-surface px-3 py-1 rounded-full text-sm font-semibold text-text-secondary">Kotlin</span>
+                        <span class="bg-surface px-3 py-1 rounded-full text-sm font-semibold text-text-secondary">Jetpack</span>
+                        <span class="bg-surface px-3 py-1 rounded-full text-sm font-semibold text-text-secondary">Java</span>
+                    </div>
+                </div>
+
+                <!-- Cross-Platform Development -->
+                <div class="bg-background p-8 rounded-xl shadow-card hover:shadow-lg transition-content">
+                    <div class="w-16 h-16 bg-primary bg-opacity-10 rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-heading font-bold text-primary mb-4">Cross-Platform Development</h3>
+                    <p class="text-text-secondary mb-6 leading-relaxed">
+                        Maximize your reach and minimize development costs with cross-platform solutions that deploy to both iOS and Android from a single codebase.
+                    </p>
+                    <div class="space-y-3 mb-6">
+                        <div class="flex items-center space-x-3">
+                            <svg class="w-5 h-5 text-success" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-text-secondary">Flutter Development</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <svg class="w-5 h-5 text-success" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-text-secondary">React Native Solutions</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <svg class="w-5 h-5 text-success" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-text-secondary">Code Reusability & Efficiency</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <svg class="w-5 h-5 text-success" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-text-secondary">Unified Experience Across Platforms</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-surface px-3 py-1 rounded-full text-sm font-semibold text-text-secondary">Flutter</span>
+                        <span class="bg-surface px-3 py-1 rounded-full text-sm font-semibold text-text-secondary">React Native</span>
+                        <span class="bg-surface px-3 py-1 rounded-full text-sm font-semibold text-text-secondary">Dart</span>
+                    </div>
+                </div>
+
+                <!-- App Maintenance & Support -->
+                <div class="bg-background p-8 rounded-xl shadow-card hover:shadow-lg transition-content">
+                    <div class="w-16 h-16 bg-accent bg-opacity-10 rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-heading font-bold text-primary mb-4">App Maintenance & Support</h3>
+                    <p class="text-text-secondary mb-6 leading-relaxed">
+                        Keep your mobile application running smoothly with comprehensive maintenance services, regular updates, and responsive technical support.
+                    </p>
+                    <div class="space-y-3 mb-6">
+                        <div class="flex items-center space-x-3">
+                            <svg class="w-5 h-5 text-success" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-text-secondary">Regular Performance Optimization</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <svg class="w-5 h-5 text-success" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-text-secondary">OS Updates & Compatibility</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <svg class="w-5 h-5 text-success" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-text-secondary">Bug Fixes & Technical Support</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <svg class="w-5 h-5 text-success" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-text-secondary">Feature Enhancements & Updates</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-surface px-3 py-1 rounded-full text-sm font-semibold text-text-secondary">Monitoring</span>
+                        <span class="bg-surface px-3 py-1 rounded-full text-sm font-semibold text-text-secondary">Analytics</span>
+                        <span class="bg-surface px-3 py-1 rounded-full text-sm font-semibold text-text-secondary">Support</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- App Development Process Section -->
+    <section class="py-20 bg-background">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-heading font-bold text-primary mb-4">
+                    Our App Development Process
+                </h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    We follow a proven, systematic approach to mobile app development that ensures 
+                    high-quality results, efficient delivery, and alignment with your business objectives.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Discovery & Planning -->
+                <div class="bg-surface p-8 rounded-xl shadow-card hover:shadow-lg transition-content">
+                    <div class="w-12 h-12 bg-accent text-white rounded-full flex items-center justify-center text-xl font-bold mb-6">1</div>
+                    <h3 class="text-xl font-heading font-bold text-primary mb-4">Discovery & Planning</h3>
+                    <p class="text-text-secondary mb-4 leading-relaxed">
+                        We begin by understanding your business goals, target audience, and app requirements to create a detailed roadmap.
+                    </p>
+                    <ul class="text-text-secondary space-y-2 text-sm">
+                        <li class="flex items-start space-x-2">
+                            <svg class="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Requirement analysis & documentation</span>
+                        </li>
+                        <li class="flex items-start space-x-2">
+                            <svg class="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Competitive analysis & market research</span>
+                        </li>
+                        <li class="flex items-start space-x-2">
+                            <svg class="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Project scope & timeline definition</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Design & Prototyping -->
+                <div class="bg-surface p-8 rounded-xl shadow-card hover:shadow-lg transition-content">
+                    <div class="w-12 h-12 bg-accent text-white rounded-full flex items-center justify-center text-xl font-bold mb-6">2</div>
+                    <h3 class="text-xl font-heading font-bold text-primary mb-4">Design & Prototyping</h3>
+                    <p class="text-text-secondary mb-4 leading-relaxed">
+                        Our designers create intuitive user experiences and attractive interfaces that engage your target audience.
+                    </p>
+                    <ul class="text-text-secondary space-y-2 text-sm">
+                        <li class="flex items-start space-x-2">
+                            <svg class="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>User flow & wireframe creation</span>
+                        </li>
+                        <li class="flex items-start space-x-2">
+                            <svg class="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>UI/UX design & visual identity</span>
+                        </li>
+                        <li class="flex items-start space-x-2">
+                            <svg class="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Interactive prototype development</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Development & Testing -->
+                <div class="bg-surface p-8 rounded-xl shadow-card hover:shadow-lg transition-content">
+                    <div class="w-12 h-12 bg-accent text-white rounded-full flex items-center justify-center text-xl font-bold mb-6">3</div>
+                    <h3 class="text-xl font-heading font-bold text-primary mb-4">Development & Testing</h3>
+                    <p class="text-text-secondary mb-4 leading-relaxed">
+                        Our developers build your app with clean, efficient code and implement rigorous testing procedures.
+                    </p>
+                    <ul class="text-text-secondary space-y-2 text-sm">
+                        <li class="flex items-start space-x-2">
+                            <svg class="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Agile development methodology</span>
+                        </li>
+                        <li class="flex items-start space-x-2">
+                            <svg class="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Backend integration & API development</span>
+                        </li>
+                        <li class="flex items-start space-x-2">
+                            <svg class="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Comprehensive testing & QA</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Deployment & Support -->
+                <div class="bg-surface p-8 rounded-xl shadow-card hover:shadow-lg transition-content">
+                    <div class="w-12 h-12 bg-accent text-white rounded-full flex items-center justify-center text-xl font-bold mb-6">4</div>
+                    <h3 class="text-xl font-heading font-bold text-primary mb-4">Deployment & Support</h3>
+                    <p class="text-text-secondary mb-4 leading-relaxed">
+                        We handle app store submissions and provide ongoing maintenance and support services.
+                    </p>
+                    <ul class="text-text-secondary space-y-2 text-sm">
+                        <li class="flex items-start space-x-2">
+                            <svg class="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>App store submission & optimization</span>
+                        </li>
+                        <li class="flex items-start space-x-2">
+                            <svg class="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Performance monitoring & analytics</span>
+                        </li>
+                        <li class="flex items-start space-x-2">
+                            <svg class="w-4 h-4 text-accent mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Regular updates & maintenance</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- App Features Section -->
+    <section class="py-20 bg-surface">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-heading font-bold text-primary mb-4">
+                    Advanced App Features & Capabilities
+                </h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    Enhance your mobile app with powerful features and capabilities that deliver exceptional 
+                    user experiences and drive engagement.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- User Authentication -->
+                <div class="bg-background p-6 rounded-xl shadow-card hover:shadow-lg transition-content">
+                    <div class="w-12 h-12 bg-primary bg-opacity-10 rounded-full flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-heading font-bold text-primary mb-2">Secure Authentication</h3>
+                    <p class="text-text-secondary text-sm leading-relaxed">
+                        Implement secure login systems with biometric authentication, social logins, and multi-factor authentication.
+                    </p>
+                </div>
+                
+                <!-- Push Notifications -->
+                <div class="bg-background p-6 rounded-xl shadow-card hover:shadow-lg transition-content">
+                    <div class="w-12 h-12 bg-secondary bg-opacity-10 rounded-full flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-heading font-bold text-primary mb-2">Push Notifications</h3>
+                    <p class="text-text-secondary text-sm leading-relaxed">
+                        Keep users engaged with targeted push notifications, in-app messaging, and personalized alerts.
+                    </p>
+                </div>
+                
+                <!-- Offline Functionality -->
+                <div class="bg-background p-6 rounded-xl shadow-card hover:shadow-lg transition-content">
+                    <div class="w-12 h-12 bg-accent bg-opacity-10 rounded-full flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-heading font-bold text-primary mb-2">Offline Functionality</h3>
+                    <p class="text-text-secondary text-sm leading-relaxed">
+                        Enable seamless offline experiences with local data storage, caching, and synchronization when connectivity returns.
+                    </p>
+                </div>
+                
+                <!-- In-App Purchases -->
+                <div class="bg-background p-6 rounded-xl shadow-card hover:shadow-lg transition-content">
+                    <div class="w-12 h-12 bg-primary bg-opacity-10 rounded-full flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-heading font-bold text-primary mb-2">In-App Purchases</h3>
+                    <p class="text-text-secondary text-sm leading-relaxed">
+                        Implement secure payment gateways for subscriptions, digital goods, and premium features with receipt validation.
+                    </p>
+                </div>
+                
+                <!-- Analytics Integration -->
+                <div class="bg-background p-6 rounded-xl shadow-card hover:shadow-lg transition-content">
+                    <div class="w-12 h-12 bg-secondary bg-opacity-10 rounded-full flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-heading font-bold text-primary mb-2">Analytics Integration</h3>
+                    <p class="text-text-secondary text-sm leading-relaxed">
+                        Track user behavior, monitor app performance, and gather valuable insights with comprehensive analytics tools.
+                    </p>
+                </div>
+                
+                <!-- API Integration -->
+                <div class="bg-background p-6 rounded-xl shadow-card hover:shadow-lg transition-content">
+                    <div class="w-12 h-12 bg-accent bg-opacity-10 rounded-full flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-heading font-bold text-primary mb-2">API Integration</h3>
+                    <p class="text-text-secondary text-sm leading-relaxed">
+                        Connect your app to third-party services, databases, and platforms with custom API development and integration.
+                    </p>
+                </div>
+                
+                <!-- AR/VR Capabilities -->
+                <div class="bg-background p-6 rounded-xl shadow-card hover:shadow-lg transition-content">
+                    <div class="w-12 h-12 bg-primary bg-opacity-10 rounded-full flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-heading font-bold text-primary mb-2">AR/VR Features</h3>
+                    <p class="text-text-secondary text-sm leading-relaxed">
+                        Implement augmented and virtual reality features to create immersive, interactive user experiences.
+                    </p>
+                </div>
+                
+                <!-- Real-time Features -->
+                <div class="bg-background p-6 rounded-xl shadow-card hover:shadow-lg transition-content">
+                    <div class="w-12 h-12 bg-secondary bg-opacity-10 rounded-full flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-heading font-bold text-primary mb-2">Real-time Features</h3>
+                    <p class="text-text-secondary text-sm leading-relaxed">
+                        Build real-time chat, collaboration tools, and live updates using WebSockets and real-time databases.
+                    </p>
+                </div>
+                
+                <!-- AI Capabilities -->
+                <div class="bg-background p-6 rounded-xl shadow-card hover:shadow-lg transition-content">
+                    <div class="w-12 h-12 bg-accent bg-opacity-10 rounded-full flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-heading font-bold text-primary mb-2">AI & ML Integration</h3>
+                    <p class="text-text-secondary text-sm leading-relaxed">
+                        Enhance your app with artificial intelligence and machine learning capabilities for personalization and smart features.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Stack Section -->
+    <section class="py-20 bg-background">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-heading font-bold text-primary mb-4">
+                    Our Mobile Technology Stack
+                </h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    We use cutting-edge technologies and frameworks to build scalable, 
+                    maintainable, and high-performance mobile applications.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- iOS Technologies -->
+                <div class="text-center">
+                    <h3 class="text-lg font-heading font-bold text-primary mb-6">iOS</h3>
+                    <div class="space-y-4">
+                        <div class="bg-surface p-4 rounded-lg hover:shadow-subtle transition-smooth group">
+                            <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Swift programming language" class="w-12 h-12 mx-auto mb-2 object-cover rounded group-hover:scale-110 transition-content" loading="lazy" onerror="this.src='https://images.pexels.com/photos/50987/money-card-business-credit-card-50987.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+                            <span class="text-sm font-semibold text-text-secondary">Swift</span>
+                        </div>
+                        <div class="bg-surface p-4 rounded-lg hover:shadow-subtle transition-smooth group">
+                            <img src="https://images.pexels.com/photos/50987/money-card-business-credit-card-50987.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="SwiftUI framework" class="w-12 h-12 mx-auto mb-2 object-cover rounded group-hover:scale-110 transition-content" loading="lazy" onerror="this.src='https://images.pixabay.com/photo/2016/12/09/11/33/smartphone-1894723_1280.jpg'; this.onerror=null;" />
+                            <span class="text-sm font-semibold text-text-secondary">SwiftUI</span>
+                        </div>
+                        <div class="bg-surface p-4 rounded-lg hover:shadow-subtle transition-smooth group">
+                            <img src="https://images.pixabay.com/photo/2016/12/09/11/33/smartphone-1894723_1280.jpg" alt="Objective-C language" class="w-12 h-12 mx-auto mb-2 object-cover rounded group-hover:scale-110 transition-content" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3'; this.onerror=null;" />
+                            <span class="text-sm font-semibold text-text-secondary">Objective-C</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Android Technologies -->
+                <div class="text-center">
+                    <h3 class="text-lg font-heading font-bold text-primary mb-6">Android</h3>
+                    <div class="space-y-4">
+                        <div class="bg-surface p-4 rounded-lg hover:shadow-subtle transition-smooth group">
+                            <img src="https://images.unsplash.com/photo-1627398242454-45a1465c2479?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Kotlin programming language" class="w-12 h-12 mx-auto mb-2 object-cover rounded group-hover:scale-110 transition-content" loading="lazy" onerror="this.src='https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+                            <span class="text-sm font-semibold text-text-secondary">Kotlin</span>
+                        </div>
+                        <div class="bg-surface p-4 rounded-lg hover:shadow-subtle transition-smooth group">
+                            <img src="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Java programming language" class="w-12 h-12 mx-auto mb-2 object-cover rounded group-hover:scale-110 transition-content" loading="lazy" onerror="this.src='https://images.pixabay.com/photo/2013/07/12/17/47/test-pattern-152459_1280.png'; this.onerror=null;" />
+                            <span class="text-sm font-semibold text-text-secondary">Java</span>
+                        </div>
+                        <div class="bg-surface p-4 rounded-lg hover:shadow-subtle transition-smooth group">
+                            <img src="https://images.pixabay.com/photo/2013/07/12/17/47/test-pattern-152459_1280.png" alt="Android Jetpack" class="w-12 h-12 mx-auto mb-2 object-cover rounded group-hover:scale-110 transition-content" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1627398242454-45a1465c2479?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3'; this.onerror=null;" />
+                            <span class="text-sm font-semibold text-text-secondary">Jetpack</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cross-Platform Technologies -->
+                <div class="text-center">
+                    <h3 class="text-lg font-heading font-bold text-primary mb-6">Cross-Platform</h3>
+                    <div class="space-y-4">
+                        <div class="bg-surface p-4 rounded-lg hover:shadow-subtle transition-smooth group">
+                            <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Flutter framework" class="w-12 h-12 mx-auto mb-2 object-cover rounded group-hover:scale-110 transition-content" loading="lazy" onerror="this.src='https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+                            <span class="text-sm font-semibold text-text-secondary">Flutter</span>
+                        </div>
+                        <div class="bg-surface p-4 rounded-lg hover:shadow-subtle transition-smooth group">
+                            <img src="https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="React Native framework" class="w-12 h-12 mx-auto mb-2 object-cover rounded group-hover:scale-110 transition-content" loading="lazy" onerror="this.src='https://images.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png'; this.onerror=null;" />
+                            <span class="text-sm font-semibold text-text-secondary">React Native</span>
+                        </div>
+                        <div class="bg-surface p-4 rounded-lg hover:shadow-subtle transition-smooth group">
+                            <img src="https://images.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png" alt="Dart programming language" class="w-12 h-12 mx-auto mb-2 object-cover rounded group-hover:scale-110 transition-content" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1555949963-aa79dcee981c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3'; this.onerror=null;" />
+                            <span class="text-sm font-semibold text-text-secondary">Dart</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend & DevOps -->
+                <div class="text-center">
+                    <h3 class="text-lg font-heading font-bold text-primary mb-6">Backend & DevOps</h3>
+                    <div class="space-y-4">
+                        <div class="bg-surface p-4 rounded-lg hover:shadow-subtle transition-smooth group">
+                            <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Firebase platform" class="w-12 h-12 mx-auto mb-2 object-cover rounded group-hover:scale-110 transition-content" loading="lazy" onerror="this.src='https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+                            <span class="text-sm font-semibold text-text-secondary">Firebase</span>
+                        </div>
+                        <div class="bg-surface p-4 rounded-lg hover:shadow-subtle transition-smooth group">
+                            <img src="https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="AWS services" class="w-12 h-12 mx-auto mb-2 object-cover rounded group-hover:scale-110 transition-content" loading="lazy" onerror="this.src='https://images.pixabay.com/photo/2018/05/08/08/44/artificial-intelligence-3382507_1280.jpg'; this.onerror=null;" />
+                            <span class="text-sm font-semibold text-text-secondary">AWS</span>
+                        </div>
+                        <div class="bg-surface p-4 rounded-lg hover:shadow-subtle transition-smooth group">
+                            <img src="https://images.pixabay.com/photo/2018/05/08/08/44/artificial-intelligence-3382507_1280.jpg" alt="CI/CD Pipeline" class="w-12 h-12 mx-auto mb-2 object-cover rounded group-hover:scale-110 transition-content" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3'; this.onerror=null;" />
+                            <span class="text-sm font-semibold text-text-secondary">CI/CD</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Portfolio Section -->
+    <section class="py-20 bg-surface">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-heading font-bold text-primary mb-4">
+                    Featured Mobile App Projects
+                </h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    Explore our recent mobile app development projects showcasing our expertise 
+                    in creating high-performance, user-friendly applications.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-background rounded-xl shadow-card overflow-hidden hover:shadow-lg transition-content">
+                    <div class="aspect-video overflow-hidden">
+                        <img src="https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="FinanceFlow Mobile App project showcase" class="w-full h-full object-cover hover:scale-105 transition-content" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3'; this.onerror=null;" />
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-heading font-bold text-primary mb-2">FinanceFlow Mobile Banking</h3>
+                        <p class="text-text-secondary mb-4">
+                            Secure mobile banking application with biometric authentication, real-time transactions, and financial insights.
+                        </p>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-surface px-2 py-1 rounded text-xs font-semibold text-text-secondary">iOS</span>
+                                <span class="bg-surface px-2 py-1 rounded text-xs font-semibold text-text-secondary">Android</span>
+                                <span class="bg-surface px-2 py-1 rounded text-xs font-semibold text-text-secondary">Fintech</span>
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <a href="portfolio_case_studies.html" class="text-accent font-semibold hover:text-primary transition-smooth">
+                                View Case Study
+                            </a>
+                            <a href="#" class="text-secondary font-semibold hover:text-primary transition-smooth">
+                                App Store →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="bg-background rounded-xl shadow-card overflow-hidden hover:shadow-lg transition-content">
+                    <div class="aspect-video overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3" alt="HealthTracker Fitness App project showcase" class="w-full h-full object-cover hover:scale-105 transition-content" loading="lazy" onerror="this.src='https://images.pixabay.com/photo/2016/12/09/11/33/smartphone-1894723_1280.jpg'; this.onerror=null;" />
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-heading font-bold text-primary mb-2">HealthTracker Fitness App</h3>
+                        <p class="text-text-secondary mb-4">
+                            Comprehensive fitness tracking with workout plans, nutrition monitoring, and health analytics dashboard.
+                        </p>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-surface px-2 py-1 rounded text-xs font-semibold text-text-secondary">Flutter</span>
+                                <span class="bg-surface px-2 py-1 rounded text-xs font-semibold text-text-secondary">Firebase</span>
+                                <span class="bg-surface px-2 py-1 rounded text-xs font-semibold text-text-secondary">Health</span>
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <a href="portfolio_case_studies.html" class="text-accent font-semibold hover:text-primary transition-smooth">
+                                View Case Study
+                            </a>
+                            <a href="#" class="text-secondary font-semibold hover:text-primary transition-smooth">
+                                Play Store →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="bg-background rounded-xl shadow-card overflow-hidden hover:shadow-lg transition-content">
+                    <div class="aspect-video overflow-hidden">
+                        <img src="https://images.pixabay.com/photo/2016/12/09/11/33/smartphone-1894723_1280.jpg" alt="ShopSmart E-commerce App project showcase" class="w-full h-full object-cover hover:scale-105 transition-content" loading="lazy" onerror="this.src='https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-heading font-bold text-primary mb-2">ShopSmart E-commerce App</h3>
+                        <p class="text-text-secondary mb-4">
+                            Feature-rich shopping app with personalized recommendations, secure checkout, and order tracking.
+                        </p>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-surface px-2 py-1 rounded text-xs font-semibold text-text-secondary">React Native</span>
+                                <span class="bg-surface px-2 py-1 rounded text-xs font-semibold text-text-secondary">Node.js</span>
+                                <span class="bg-surface px-2 py-1 rounded text-xs font-semibold text-text-secondary">E-commerce</span>
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <a href="portfolio_case_studies.html" class="text-accent font-semibold hover:text-primary transition-smooth">
+                                View Case Study
+                            </a>
+                            <a href="#" class="text-secondary font-semibold hover:text-primary transition-smooth">
+                                App Store →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <a href="portfolio_case_studies.html" class="bg-primary text-white px-8 py-4 rounded-lg font-semibold hover:bg-opacity-90 transition-smooth">
+                    View All Projects
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 bg-background">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-heading font-bold text-primary mb-4">
+                    Frequently Asked Questions
+                </h2>
+                <p class="text-xl text-text-secondary">
+                    Get answers to common questions about our mobile app development services.
+                </p>
+            </div>
+
+            <div class="space-y-6">
+                <!-- FAQ Item 1 -->
+                <div class="bg-surface p-6 rounded-xl shadow-card">
+                    <button class="w-full text-left flex items-center justify-between faq-toggle" data-target="faq-1">
+                        <h3 class="text-lg font-heading font-bold text-primary">How long does it take to develop a mobile app?</h3>
+                        <svg class="w-5 h-5 text-primary transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div id="faq-1" class="hidden mt-4 text-text-secondary">
+                        <p>Development timelines vary based on complexity and features. A simple app might take 2-3 months, while complex applications can require 4-8 months or more. We provide detailed timelines during the discovery phase after understanding your specific requirements.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="bg-surface p-6 rounded-xl shadow-card">
+                    <button class="w-full text-left flex items-center justify-between faq-toggle" data-target="faq-2">
+                        <h3 class="text-lg font-heading font-bold text-primary">Should I build a native or cross-platform app?</h3>
+                        <svg class="w-5 h-5 text-primary transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div id="faq-2" class="hidden mt-4 text-text-secondary">
+                        <p>This depends on your specific needs. Native apps offer the best performance and access to platform-specific features, while cross-platform solutions provide cost efficiency and faster development. We recommend native development for complex, feature-rich apps and cross-platform for simpler applications with budget constraints.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="bg-surface p-6 rounded-xl shadow-card">
+                    <button class="w-full text-left flex items-center justify-between faq-toggle" data-target="faq-3">
+                        <h3 class="text-lg font-heading font-bold text-primary">How much does mobile app development cost?</h3>
+                        <svg class="w-5 h-5 text-primary transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div id="faq-3" class="hidden mt-4 text-text-secondary">
+                        <p>App development costs vary widely based on complexity, features, and platforms. Basic apps typically start around $15,000-$30,000, while complex applications with advanced features can range from $50,000 to $250,000+. We provide detailed cost estimates based on your specific requirements during the initial consultation.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="bg-surface p-6 rounded-xl shadow-card">
+                    <button class="w-full text-left flex items-center justify-between faq-toggle" data-target="faq-4">
+                        <h3 class="text-lg font-heading font-bold text-primary">What happens after my app is launched?</h3>
+                        <svg class="w-5 h-5 text-primary transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div id="faq-4" class="hidden mt-4 text-text-secondary">
+                        <p>We provide comprehensive post-launch support including bug fixes, performance monitoring, and regular updates. Our maintenance packages ensure your app stays compatible with new OS versions and devices. We also offer analytics implementation to track user behavior and identify opportunities for improvements and feature enhancements.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="bg-surface p-6 rounded-xl shadow-card">
+                    <button class="w-full text-left flex items-center justify-between faq-toggle" data-target="faq-5">
+                        <h3 class="text-lg font-heading font-bold text-primary">Do you help with app store submissions?</h3>
+                        <svg class="w-5 h-5 text-primary transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div id="faq-5" class="hidden mt-4 text-text-secondary">
+                        <p>Yes, we handle the entire app store submission process for both Apple App Store and Google Play Store. This includes preparing all required assets, optimizing app listings, addressing compliance requirements, and navigating the review process. We also implement App Store Optimization (ASO) strategies to improve your app's visibility and download rates.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-br from-primary to-secondary text-white">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-3xl lg:text-4xl font-heading font-bold mb-6">
+                Ready to Build Your Mobile App?
+            </h2>
+            <p class="text-xl text-gray-200 mb-8 leading-relaxed">
+                Let's discuss your project requirements and create a custom mobile solution 
+                that drives results for your business.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="contact.html" class="bg-accent text-white px-8 py-4 rounded-lg font-semibold hover:bg-opacity-90 transition-smooth">
+                    Start Your Project
+                </a>
+                <a href="portfolio_case_studies.html" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-primary transition-smooth">
+                    View Our Portfolio
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white py-16">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                <!-- Company Info -->
+                <div class="lg:col-span-2">
+                    <div class="flex items-center space-x-2 mb-6">
+                        <svg class="w-8 h-8 text-accent" viewBox="0 0 32 32" fill="currentColor">
+                            <path d="M16 2L3 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-13-5z"/>
+                            <path d="M12 14l2 2 6-6" stroke="white" stroke-width="2" fill="none"/>
+                        </svg>
+                        <span class="text-xl font-heading font-bold">DevServices</span>
+                    </div>
+                    <p class="text-gray-300 mb-6 max-w-md">
+                        Transforming businesses through innovative AI integration, 
+                        custom web development, and mobile app solutions.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 bg-secondary rounded-full flex items-center justify-center hover:bg-accent transition-smooth">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-secondary rounded-full flex items-center justify-center hover:bg-accent transition-smooth">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-secondary rounded-full flex items-center justify-center hover:bg-accent transition-smooth">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24.009 12.017 24c6.624 0 11.99-5.367 11.99-11.987C24.007 5.367 18.641.001 12.017.001z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Services -->
+                <div>
+                    <h4 class="text-lg font-heading font-semibold mb-6">Services</h4>
+                    <ul class="space-y-3">
+                        <li><a href="ai_integration_services.html" class="text-gray-300 hover:text-accent transition-smooth">AI Integration</a></li>
+                        <li><a href="web_development_services.html" class="text-gray-300 hover:text-accent transition-smooth">Web Development</a></li>
+                        <li><a href="mobile_app_development.html" class="text-gray-300 hover:text-accent transition-smooth">Mobile Apps</a></li>
+                        <li><a href="portfolio_case_studies.html" class="text-gray-300 hover:text-accent transition-smooth">Portfolio</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h4 class="text-lg font-heading font-semibold mb-6">Contact</h4>
+                    <ul class="space-y-3">
+                        <li class="text-gray-300">
+                            <span class="block">Email:</span>
+                            <a href="mailto:hello@devservices.com" class="hover:text-accent transition-smooth">hello@devservices.com</a>
+                        </li>
+                        <li class="text-gray-300">
+                            <span class="block">Phone:</span>
+                            <a href="tel:+1234567890" class="hover:text-accent transition-smooth">+1 (234) 567-8900</a>
+                        </li>
+                        <li>
+                            <a href="contact.html" class="text-accent hover:text-white transition-smooth">Get in Touch</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-secondary pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-300 text-sm">
+                    © 2025 DevServices Portfolio. All Rights Reserved.
+                </p>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <a href="#" class="text-gray-300 hover:text-accent transition-smooth text-sm">Privacy Policy</a>
+                    <a href="#" class="text-gray-300 hover:text-accent transition-smooth text-sm">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        // Mobile Menu Toggle
+        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const mobileMenu = document.getElementById('mobile-menu');
+            const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+            
+            if (!mobileMenu.contains(event.target) && !mobileMenuBtn.contains(event.target)) {
+                mobileMenu.classList.add('hidden');
+            }
+        });
+
+        // FAQ Toggle Functionality
+        document.querySelectorAll('.faq-toggle').forEach(button => {
+            button.addEventListener('click', function() {
+                const targetId = this.getAttribute('data-target');
+                const targetElement = document.getElementById(targetId);
+                const icon = this.querySelector('svg');
+                
+                if (targetElement.classList.contains('hidden')) {
+                    targetElement.classList.remove('hidden');
+                    icon.style.transform = 'rotate(180deg)';
+                } else {
+                    targetElement.classList.add('hidden');
+                    icon.style.transform = 'rotate(0deg)';
+                }
+            });
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+<script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+</body>
+</html>
